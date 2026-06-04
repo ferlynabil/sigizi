@@ -662,7 +662,7 @@ const pageRenderers = {
         </table></div>
       </div>`;
     await load();
-
+    // mbg 
     const rekForm = (kat = '', saran = '') => `
       <div class="form-group"><label class="form-label">Kategori BMI</label><input class="form-input" id="rek-kat" value="${kat}" placeholder="Contoh: Obesitas"/></div>
       <div class="form-group"><label class="form-label">Saran Diet</label><textarea class="form-input" id="rek-saran" rows="4" placeholder="Tuliskan saran diet...">${saran}</textarea></div>
